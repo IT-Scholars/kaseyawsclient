@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file was auto-generated from WSDL -->
+<!-- by the Apache Axis2 version: 1.5.1  Built on : Oct 19, 2009 (10:59:00 EDT) -->
+<serviceGroup>
+    <service name="KaseyaWS">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="edu.fiu.cis.acrl.kaseya.ws.KaseyaWSMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">edu.fiu.cis.acrl.kaseya.ws.KaseyaWSSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="PrimitiveUpdateUser" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveUpdateUser</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveUpdateUserResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetOrgs" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetOrgs</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetOrgsResponse</outputActionMapping>
+        </operation>
+        <operation name="AddScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AddScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AddScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetNotesList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetNotesList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetNotesListResponse</outputActionMapping>
+        </operation>
+        <operation name="GetTicketNotes" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetTicketNotes</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetTicketNotesResponse</outputActionMapping>
+        </operation>
+        <operation name="DeleteMachineGroup" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/DeleteMachineGroup</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/DeleteMachineGroupResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveSetLicenseByOrg" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveSetLicenseByOrg</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveSetLicenseByOrgResponse</outputActionMapping>
+        </operation>
+        <operation name="GetAlarmList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetAlarmList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetAlarmListResponse</outputActionMapping>
+        </operation>
+        <operation name="GetPackageURLs" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetPackageURLs</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetPackageURLsResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAddOrg" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAddOrg</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAddOrgResponse</outputActionMapping>
+        </operation>
+        <operation name="GetMachineCollectionList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetMachineCollectionList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetMachineCollectionListResponse</outputActionMapping>
+        </operation>
+        <operation name="CreateAgentInstallPackage" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/CreateAgentInstallPackage</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/CreateAgentInstallPackageResponse</outputActionMapping>
+        </operation>
+        <operation name="EchoMt" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/EchoMt</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/EchoMtResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveDeleteScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveDeleteScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveDeleteScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAssignRole" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAssignRole</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAssignRoleResponse</outputActionMapping>
+        </operation>
+        <operation name="RemoveUserFromRole" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/RemoveUserFromRole</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/RemoveUserFromRoleResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAssignScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAssignScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAssignScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="GetPartnerUserLocation" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetPartnerUserLocation</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetPartnerUserLocationResponse</outputActionMapping>
+        </operation>
+        <operation name="DeleteAgent" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/DeleteAgent</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/DeleteAgentResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAddMachGroupToScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAddMachGroupToScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAddMachGroupToScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="GetAlarm" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetAlarm</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetAlarmResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveSetPartnerUserLocation" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveSetPartnerUserLocation</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveSetPartnerUserLocationResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetPartnerUserLocation" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetPartnerUserLocation</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetPartnerUserLocationResponse</outputActionMapping>
+        </operation>
+        <operation name="GetVerboseMachineGroupList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetVerboseMachineGroupList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetVerboseMachineGroupListResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAddTicRequest" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAddTicRequest</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAddTicRequestResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveDeleteMachineGroup" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveDeleteMachineGroup</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveDeleteMachineGroupResponse</outputActionMapping>
+        </operation>
+        <operation name="UpdateTicket" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/UpdateTicket</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/UpdateTicketResponse</outputActionMapping>
+        </operation>
+        <operation name="AssignScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AssignScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AssignScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="LockFunctionAccess" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/LockFunctionAccess</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/LockFunctionAccessResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetMachineGroupList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetMachineGroupList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetMachineGroupListResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetAlarmList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetAlarmList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetAlarmListResponse</outputActionMapping>
+        </operation>
+        <operation name="DeleteScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/DeleteScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/DeleteScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="AddScopeOrg" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AddScopeOrg</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AddScopeOrgResponse</outputActionMapping>
+        </operation>
+        <operation name="GetRoles" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetRoles</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetRolesResponse</outputActionMapping>
+        </operation>
+        <operation name="GetTicRequestTicket" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetTicRequestTicket</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetTicRequestTicketResponse</outputActionMapping>
+        </operation>
+        <operation name="UpdateOrg" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/UpdateOrg</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/UpdateOrgResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveUpdateTicket" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveUpdateTicket</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveUpdateTicketResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetVerboseMachineGroupList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetVerboseMachineGroupList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetVerboseMachineGroupListResponse</outputActionMapping>
+        </operation>
+        <operation name="CreateAdmin" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/CreateAdmin</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/CreateAdminResponse</outputActionMapping>
+        </operation>
+        <operation name="AddOrgToScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AddOrgToScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AddOrgToScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="RoleMembership" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/RoleMembership</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/RoleMembershipResponse</outputActionMapping>
+        </operation>
+        <operation name="AddTicRequest" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AddTicRequest</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AddTicRequestResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAddUserToRole" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAddUserToRole</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAddUserToRoleResponse</outputActionMapping>
+        </operation>
+        <operation name="AddUserToScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AddUserToScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AddUserToScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="CloseAlarm" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/CloseAlarm</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/CloseAlarmResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetMachineCollectionList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetMachineCollectionList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetMachineCollectionListResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetOrgsByScopeID" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetOrgsByScopeID</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetOrgsByScopeIDResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetAlarm" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetAlarm</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetAlarmResponse</outputActionMapping>
+        </operation>
+        <operation name="AdminGroupAccess" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AdminGroupAccess</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AdminGroupAccessResponse</outputActionMapping>
+        </operation>
+        <operation name="CreateMachineGroup" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/CreateMachineGroup</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/CreateMachineGroupResponse</outputActionMapping>
+        </operation>
+        <operation name="GetScopes" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetScopes</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetScopesResponse</outputActionMapping>
+        </operation>
+        <operation name="SetGroupLicenseInfo" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/SetGroupLicenseInfo</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/SetGroupLicenseInfoResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetMachineList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetMachineList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetMachineListResponse</outputActionMapping>
+        </operation>
+        <operation name="SetPartnerUserLocation" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/SetPartnerUserLocation</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/SetPartnerUserLocationResponse</outputActionMapping>
+        </operation>
+        <operation name="GetLogEntry" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetLogEntry</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetLogEntryResponse</outputActionMapping>
+        </operation>
+        <operation name="SendAdminMessage" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/SendAdminMessage</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/SendAdminMessageResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveRemoveUserFromRole" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveRemoveUserFromRole</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveRemoveUserFromRoleResponse</outputActionMapping>
+        </operation>
+        <operation name="AssignRole" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AssignRole</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AssignRoleResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveCloseAlarm" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveCloseAlarm</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveCloseAlarmResponse</outputActionMapping>
+        </operation>
+        <operation name="AddUserToRole" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AddUserToRole</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AddUserToRoleResponse</outputActionMapping>
+        </operation>
+        <operation name="GetNotesList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetNotesList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetNotesListResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAddScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAddScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAddScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveDeleteOrg" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveDeleteOrg</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveDeleteOrgResponse</outputActionMapping>
+        </operation>
+        <operation name="CreateRole" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/CreateRole</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/CreateRoleResponse</outputActionMapping>
+        </operation>
+        <operation name="DisableAdmin" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/DisableAdmin</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/DisableAdminResponse</outputActionMapping>
+        </operation>
+        <operation name="GetTicket" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetTicket</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetTicketResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetTicketList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetTicketList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetTicketListResponse</outputActionMapping>
+        </operation>
+        <operation name="GetTicketList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetTicketList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetTicketListResponse</outputActionMapping>
+        </operation>
+        <operation name="SetAdminPassword" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/SetAdminPassword</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/SetAdminPasswordResponse</outputActionMapping>
+        </operation>
+        <operation name="DeleteAdmin" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/DeleteAdmin</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/DeleteAdminResponse</outputActionMapping>
+        </operation>
+        <operation name="GetMachineUptime" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetMachineUptime</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetMachineUptimeResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetScopes" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetScopes</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetScopesResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetTicRequestTicket" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetTicRequestTicket</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetTicRequestTicketResponse</outputActionMapping>
+        </operation>
+        <operation name="GetGroupLicenseInfo" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetGroupLicenseInfo</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetGroupLicenseInfoResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetPublishedViewColumns" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetPublishedViewColumns</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetPublishedViewColumnsResponse</outputActionMapping>
+        </operation>
+        <operation name="GetMachineList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetMachineList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetMachineListResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetOrgLocation" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetOrgLocation</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetOrgLocationResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveResetPassword" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveResetPassword</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveResetPasswordResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetPublishedViewRows" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetPublishedViewRows</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetPublishedViewRowsResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAddScopeOrg" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAddScopeOrg</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAddScopeOrgResponse</outputActionMapping>
+        </operation>
+        <operation name="AddMachGroupToScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AddMachGroupToScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AddMachGroupToScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAddOrgDeptStaff" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAddOrgDeptStaff</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAddOrgDeptStaffResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetPublishedViews" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetPublishedViews</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetPublishedViewsResponse</outputActionMapping>
+        </operation>
+        <operation name="GetOrgTypes" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetOrgTypes</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetOrgTypesResponse</outputActionMapping>
+        </operation>
+        <operation name="GetOrgLocation" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetOrgLocation</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetOrgLocationResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetTicket" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetTicket</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetTicketResponse</outputActionMapping>
+        </operation>
+        <operation name="GetMachineGroupList" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetMachineGroupList</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetMachineGroupListResponse</outputActionMapping>
+        </operation>
+        <operation name="DeleteOrg" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/DeleteOrg</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/DeleteOrgResponse</outputActionMapping>
+        </operation>
+        <operation name="AddOrgDeptStaff" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AddOrgDeptStaff</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AddOrgDeptStaffResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAddOrgToScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAddOrgToScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAddOrgToScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetMachineUptime" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetMachineUptime</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetMachineUptimeResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetMachine" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetMachine</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetMachineResponse</outputActionMapping>
+        </operation>
+        <operation name="UpdateUser" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/UpdateUser</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/UpdateUserResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetRoles" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetRoles</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetRolesResponse</outputActionMapping>
+        </operation>
+        <operation name="GetPublishedViewColumns" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetPublishedViewColumns</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetPublishedViewColumnsResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveCreateMachineGroup" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveCreateMachineGroup</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveCreateMachineGroupResponse</outputActionMapping>
+        </operation>
+        <operation name="SetLicenseByOrg" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/SetLicenseByOrg</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/SetLicenseByOrgResponse</outputActionMapping>
+        </operation>
+        <operation name="GetOrgs" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetOrgs</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetOrgsResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetTicketNotes" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetTicketNotes</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetTicketNotesResponse</outputActionMapping>
+        </operation>
+        <operation name="AddOrg" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/AddOrg</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AddOrgResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveCreateRole" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveCreateRole</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveCreateRoleResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveUpdateOrg" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveUpdateOrg</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveUpdateOrgResponse</outputActionMapping>
+        </operation>
+        <operation name="DeleteRole" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/DeleteRole</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/DeleteRoleResponse</outputActionMapping>
+        </operation>
+        <operation name="GetPublishedViews" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetPublishedViews</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetPublishedViewsResponse</outputActionMapping>
+        </operation>
+        <operation name="ResetPassword" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/ResetPassword</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/ResetPasswordResponse</outputActionMapping>
+        </operation>
+        <operation name="DeleteAgentInstallPackage" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/DeleteAgentInstallPackage</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/DeleteAgentInstallPackageResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetLogEntry" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetLogEntry</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetLogEntryResponse</outputActionMapping>
+        </operation>
+        <operation name="Echo" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/Echo</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/EchoResponse</outputActionMapping>
+        </operation>
+        <operation name="GetPublishedViewRows" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetPublishedViewRows</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetPublishedViewRowsResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAddUserToScope" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAddUserToScope</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAddUserToScopeResponse</outputActionMapping>
+        </operation>
+        <operation name="GetOrgsByScopeID" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetOrgsByScopeID</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetOrgsByScopeIDResponse</outputActionMapping>
+        </operation>
+        <operation name="GetMachine" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/GetMachine</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/GetMachineResponse</outputActionMapping>
+        </operation>
+        <operation name="EnableAdmin" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/EnableAdmin</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/EnableAdminResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveGetOrgTypes" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveGetOrgTypes</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveGetOrgTypesResponse</outputActionMapping>
+        </operation>
+        <operation name="Authenticate" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/Authenticate</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/AuthenticateResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveEchoMt" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveEchoMt</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveEchoMtResponse</outputActionMapping>
+        </operation>
+        <operation name="PrimitiveAuthenticate" mep="http://www.w3.org/ns/wsdl/in-out" namespace="KaseyaWS">
+            <actionMapping>KaseyaWS/PrimitiveAuthenticate</actionMapping>
+            <outputActionMapping>KaseyaWS/KaseyaWSSoap/PrimitiveAuthenticateResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
